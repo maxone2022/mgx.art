@@ -1,1 +1,13 @@
-@tailwind base;@tailwind components;@tailwind utilities; body{background:#0d0d10;color:white;}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  height: 100%;
+  background: #0d0d10;
+}
