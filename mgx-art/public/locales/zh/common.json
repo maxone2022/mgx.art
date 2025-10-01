@@ -1,0 +1,26 @@
+diff --git a//dev/null b/mgx-art/public/locales/zh/common.json
+index 0000000000000000000000000000000000000000..43e0feac93b91fd3573d286bb1f5efcf4af60fb8 100644
+--- a//dev/null
++++ b/mgx-art/public/locales/zh/common.json
+@@ -0,0 +1,21 @@
++{
++  "__lang__": "zh",
++  "slogan": "真正的力量不是重量，而是选择。",
++  "mgxFull": "MGX —— 模化通用系统架构",
++  "heroSub": "源自战场模块化装备的智慧，为探索者带来自由拼接的装备体系。",
++  "explore": "探索系统",
++  "whatTitle": "什么是 MGX？",
++  "whatBody": "MGX 继承自 MOLLE（Modular Lightweight Load-carrying Equipment）的设计哲学，将战术模块化思维带入户外与日常。",
++  "systemTitle": "系统哲学",
++  "systemBody": "装备不再是孤立的单品，而是一个可被自由定义、扩展与演进的系统。",
++  "modularity": "模块自由",
++  "resilience": "坚韧可靠",
++  "adaptability": "适应进化",
++  "visionTitle": "愿景与使命",
++  "visionBody": "愿景：成为全球最值得信赖的模块化户外装备品牌。使命：将战术模块化思维融入日常与户外，让每一次出发都无畏前行。",
++  "fieldTitle": "实战与文化",
++  "fieldBody": "MGX 不止是装备，更是一种系统与文化。",
++  "closingTitle": "你的装备系统，由你主宰。",
++  "follow": "关注我们",
++  "about": "了解更多"
++}
