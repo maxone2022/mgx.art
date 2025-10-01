@@ -2,8 +2,16 @@
 
 import { useI18n } from "./Providers";
 
+const navItems = [
+  { href: "#what", labelKey: "nav.mgx" },
+  { href: "#system", labelKey: "nav.system" },
+  { href: "#values", labelKey: "nav.values" },
+  { href: "#field", labelKey: "nav.field" },
+  { href: "#contact", labelKey: "nav.contact" },
+];
+
 export function TopNav() {
-  const { lang, setLang } = useI18n();
+  const { lang, setLang, t } = useI18n();
 
   return (
     <header className="sticky top-0 z-40 border-b border-white/10 bg-ink/80 backdrop-blur supports-[backdrop-filter]:bg-ink/60">
@@ -13,21 +21,11 @@ export function TopNav() {
           <span className="text-sm text-white/60">mgx.art</span>
         </div>
         <nav className="hidden items-center gap-6 text-sm text-white/80 md:flex">
-          <a className="hover:text-white" href="#what">
-            MGX
-          </a>
-          <a className="hover:text-white" href="#system">
-            System
-          </a>
-          <a className="hover:text-white" href="#values">
-            Values
-          </a>
-          <a className="hover:text-white" href="#field">
-            Field
-          </a>
-          <a className="hover:text-white" href="#contact">
-            Contact
-          </a>
+          {navItems.map((item) => (
+            <a className="hover:text-white" href={item.href} key={item.href}>
+              {t(item.labelKey)}
+            </a>
+          ))}
         </nav>
         <div className="flex items-center gap-3">
           <button

@@ -17,5 +17,10 @@
   "fieldBody": "MGX is more than gear — it is a system and a culture.",
   "closingTitle": "A system of gear, ruled by you.",
   "follow": "Follow Us",
-  "about": "About MGX"
+  "about": "About MGX",
+  "nav.mgx": "MGX",
+  "nav.system": "System",
+  "nav.values": "Values",
+  "nav.field": "Field",
+  "nav.contact": "Contact"
 }

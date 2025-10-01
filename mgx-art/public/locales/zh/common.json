@@ -17,5 +17,10 @@
   "fieldBody": "MGX 不止是装备，更是一种系统与文化。",
   "closingTitle": "你的装备系统，由你主宰。",
   "follow": "关注我们",
-  "about": "了解更多"
+  "about": "了解更多",
+  "nav.mgx": "MGX 系统",
+  "nav.system": "系统架构",
+  "nav.values": "价值主张",
+  "nav.field": "实战场景",
+  "nav.contact": "联系"
 }
