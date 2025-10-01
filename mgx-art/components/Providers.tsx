@@ -4,6 +4,7 @@ import { AnimatePresence } from "framer-motion";
 import {
   createContext,
   useContext,
+  useEffect,
   useMemo,
   useState,
   type Dispatch,
@@ -46,6 +47,10 @@ export function Providers({ children }: ProvidersProps) {
   const t = useMemo(() => {
     const dict = dictionaries[lang] ?? dictionaries.zh;
     return (key: string) => dict[key] ?? key;
+  }, [lang]);
+
+  useEffect(() => {
+    document.documentElement.setAttribute("lang", lang);
   }, [lang]);
 
   return (
