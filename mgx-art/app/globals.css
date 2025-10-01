@@ -1,1 +1,20 @@
-@tailwind base;@tailwind components;@tailwind utilities; body{background:#0d0d10;color:white;}
+
+diff --git a/mgx-art/app/globals.css b/mgx-art/app/globals.css
+index 80f8ff18e8c604a4d619bf07a5cea6606492227d..04e6f7207c72bb9c6eaddedf1b480374ecebcebd 100644
+--- a/mgx-art/app/globals.css
++++ b/mgx-art/app/globals.css
+@@ -1 +1,13 @@
+-@tailwind base;@tailwind components;@tailwind utilities; body{background:#0d0d10;color:white;}
++@tailwind base;
++@tailwind components;
++@tailwind utilities;
++
++:root {
++  color-scheme: dark;
++}
++
++html,
++body {
++  height: 100%;
++  background: #0d0d10;
++}
