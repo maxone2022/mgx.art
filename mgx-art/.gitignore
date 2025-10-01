@@ -1,0 +1,18 @@
+diff --git a//dev/null b/mgx-art/.gitignore
+index 0000000000000000000000000000000000000000..1a49a2fbe178d5de9842f55d9048571526731700 100644
+--- a//dev/null
++++ b/mgx-art/.gitignore
+@@ -0,0 +1,13 @@
++node_modules/
++.next/
++out/
++*.log
++npm-debug.log*
++yarn-debug.log*
++yarn-error.log*
++.pnp*
++.env.local
++.env.development.local
++.env.test.local
++.env.production.local
++.DS_Store
